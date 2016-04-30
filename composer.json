@@ -1,7 +1,7 @@
 {
   "name": "gremo/pjax-bundle",
   "type": "symfony-bundle",
-  "description": "Symfony 2 bundle that provide a lightweight yet powerfull integration with pjax jQuery plugin.",
+  "description": "Symfony bundle that provide a lightweight yet powerfull integration with pjax jQuery plugin.",
   "keywords": ["pjax", "ajax", "jquery", "pushstate"],
   "license": "MIT",
   "authors": [
