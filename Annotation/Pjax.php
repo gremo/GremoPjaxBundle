@@ -123,7 +123,9 @@ class Pjax
         // Merging using setters/getters
         foreach ($values as $key => $value) {
             if (in_array($key, self::$disallowedKeys)) {
-                throw new \RuntimeException(sprintf('Key "%s" is not allowed for annotation "@%s".', $key, get_class($this)));
+                throw new \RuntimeException(
+                    sprintf('Key "%s" is not allowed for annotation "@%s".', $key, get_class($this))
+                );
             }
 
             if (!method_exists($this, $setter = 'set'.ucfirst($key))) {
