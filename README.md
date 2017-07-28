@@ -36,6 +36,7 @@ Integration is **disabled by default**, see "Usage" to find out which method you
 
 Short configuration:
 ```yml
+gremo_pjax:
 # GremoPjaxBundle Configuration
     annotations:          false # should annotations be enabled?
 	controller_injection: false # should controller injection be enabled?
@@ -70,7 +71,7 @@ This bundle provides two different types of integration: annotations and control
 This is the most unobtrusive way and it's fully automatic:
 
 - You don't need custom template logic or controller logic
-- Response HTML is automatically filtered (il `filter` option is `true`) and a `<title>` tag is injected in the pjax container fragment
+- Response HTML is automatically filtered (if `filter` option is `true`) and a `<title>` tag is injected in the pjax container fragment
 - Response time will slightly increase due to the filtering logic, but you still save bandwidth
 
 > **Note**: everything that is not a successfull response or text/html is simply ignored.
