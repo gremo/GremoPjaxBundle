@@ -36,10 +36,10 @@ Integration is **disabled by default**, see "Usage" to find out which method you
 
 Short configuration:
 ```yml
-gremo_pjax:
 # GremoPjaxBundle Configuration
+gremo_pjax:
     annotations:          false # should annotations be enabled?
-	controller_injection: false # should controller injection be enabled?
+    controller_injection: false # should controller injection be enabled?
 ```
 
 Full configuration and defaults:
@@ -47,21 +47,21 @@ Full configuration and defaults:
 ```yml
 # GremoPjaxBundle Configuration
 gremo_pjax:
-	# Annotations configuration
+    # Annotations configuration
     annotations:
-		enabled: false # should annotations be enabled?
-		# Annotation defaults (see "Annotations")
-		defaults:
-			version: ~
-			filter:  true
+        enabled: false # should annotations be enabled?
+        # Annotation defaults (see "Annotations")
+        defaults:
+            version: ~
+            filter:  true
 
-	# Controller injection configuration
+    # Controller injection configuration
     controller_injection:
         enabled: false # should controller injection be enabled?
-		# How controller parameters should be named?
+        # How controller parameters should be named?
         parameters:
-			X-PJAX: _isPjax
-			X-PJAX-Container: _pjaxContainer
+            X-PJAX: _isPjax
+            X-PJAX-Container: _pjaxContainer
 ```
 
 ## Usage
