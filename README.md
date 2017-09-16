@@ -1,4 +1,4 @@
-# PjaxBundle
+# GremoPjaxBundle
 [![Latest stable](https://img.shields.io/packagist/v/gremo/pjax-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/pjax-bundle) [![Downloads total](https://img.shields.io/packagist/dt/gremo/pjax-bundle.svg?style=flat-square)](https://packagist.org/packages/gremo/pjax-bundle) [![GitHub issues](https://img.shields.io/github/issues/gremo/GremoPjaxBundle.svg?style=flat-square)](https://github.com/gremo/GremoPjaxBundle/issues)
 
 Symfony bundle that provide a lightweight yet powerfull integration with [pjax](https://github.com/defunkt/jquery-pjax) jQuery plugin.
